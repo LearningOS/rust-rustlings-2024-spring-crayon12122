@@ -14,10 +14,11 @@ struct ColorClassicStruct {
     blue: i32,
 
 }
-
+//元组结构体
 struct ColorTupleStruct(i32, i32, i32);
 
 #[derive(Debug)]
+//单元结构体
 struct UnitLikeStruct;
 
 #[cfg(test)]
